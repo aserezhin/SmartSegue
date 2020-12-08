@@ -23,10 +23,6 @@ let package = Package(
         .target(
             name: "SmartSegue",
             dependencies: []
-        ),
-        .testTarget(
-            name: "SmartSegueTests",
-            dependencies: ["SmartSegue"]
         )
     ]
 )
